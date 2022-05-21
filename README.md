@@ -9,7 +9,7 @@ Repository ini dibuat untuk memenuhi persyaratan Tugas Akhir Praktikum Pemodelan
 - Shumanty Nathio Simanjuntak
 - Kalika Padmarani 26050120140043 B
 # Cara Penggunaan Script Python
-1. Pengguna dapat membuka folder yang berisi kumpulan script python yang dapat dijalankan pada repository ini. 
+1. Pengguna dapat membuka folder yang berisi kumpulan script python yang dapat dijalankan pada Jupyter Notebook, Visual Studio Code dan Google Colaboratory dalam repository ini. 
 2. Setelah dibuka, tampilan script akan muncul seperti di bawah ini.
 
 
