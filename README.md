@@ -58,6 +58,7 @@ Momentum merupakan hasil perkalian antara massa dan kecepatan suatu objek. Persa
 
 * Hidrodinamika merupakan salah satu cabang ilmu pengetahuan yang mempelajari gerak liquid atau gerak fluida cair khususnya gerak air, kondisi hidrodinamika merupakan salah satu aspek yang sangat berpengaruh terhadap proses - proses yang terjadi di pantai terutama gelombang dan arus bergantung pada bentuk dan karakteristik pantai. Hidrodinamika merupakan sebuah konsep sistem model numerik secara umum untuk memodelkan suatu simulasi baik simulasi muka air, aliran di estuari, teluk dan pantai. 
 * Sedangkan Hidrodinamika 1D merupakan model untuk mensimulasikan pola gerak dari air laut secara global dengan satu variabel (x saja atau y saja)
+* Dalam pemrograman Hidrodinamika 1 Dimensi, dibutuhkan 2 library, yaitu matplotlib dan numpy. Matplotlib berfungsi untuk membuat plot grafik dari hasil running. Numpy berfungsi untuk menyimpan data sebagai grid atau matriks.
 
 Pemodelan Hidrodinamika 1 Dimensi :
 - Model Hidrodinamika 1D lebih cocok diterapkan pada gradien (kemiringan lereng) rendah atau cenderung landai
