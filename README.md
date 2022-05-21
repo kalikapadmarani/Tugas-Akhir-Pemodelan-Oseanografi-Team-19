@@ -17,8 +17,9 @@ Repository ini dibuat untuk memenuhi persyaratan Tugas Akhir Praktikum Pemodelan
 # MATERI
 # Modul Hidrodinamika 2 Dimensi
 - Pengertian dan Persamaan Pembangun
-* Adveksi secara 2 Dimensi merupakan sebuah proses 
+* Adveksi secara 2 Dimensi merupakan sebuah proses pergerakan
 * Difusi secara 2 Dimensi merupakan
+- Persamaan Adveksi-Difusi terutama 2 Dimensi adalah persamaan matematis yang didesain untuk mempelajari fenomena transpor polutan.
 # Modul Hidrodinamika 1 Dimensi
 - Pengertian dan Persamaan Pembangun
 # Modul Hidrodinamika 2 Dimensi
