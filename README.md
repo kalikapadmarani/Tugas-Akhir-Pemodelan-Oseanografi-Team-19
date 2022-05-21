@@ -15,7 +15,7 @@ Repository ini dibuat untuk memenuhi persyaratan Tugas Akhir Praktikum Pemodelan
 
 3. Script python dapat di-copy dan nantinya di-running atau dijalankan pada Jupyter Notebook, Visual Studio Code dan Google Colaboratory.
 # MATERI
-# Modul Hidrodinamika 2 Dimensi
+# Modul Adveksi-Difusi 2 Dimensi
 - Pengertian dan Persamaan Pembangun
 * Adveksi secara 2 Dimensi merupakan sebuah proses atau mekanisme pergerakan penyebaran atau perluasan materi/property/kuantitas/sifat fisik yang disebabkan oleh aliran fluida akibat dipengaruhi gaya-gaya tertentu dalam arah horizontal.
 
