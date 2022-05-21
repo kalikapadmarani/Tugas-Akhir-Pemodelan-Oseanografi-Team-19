@@ -37,7 +37,7 @@ Repository ini dibuat untuk memenuhi persyaratan Tugas Akhir Praktikum Pemodelan
 
 # Modul Hidrodinamika 1 Dimensi
 - Pengertian dan Persamaan Pembangun
-* Hidrodinamika merupakan
+* Hidrodinamika merupakan salah satu cabang ilmu pengetahuan yang mempelajari gerak liquid atau gerak fluida cair khususnya gerak air, kondisi hidrodinamika merupakan salah satu aspek yang sangat berpengaruh terhadap proses - proses yang terjadi di pantai terutama gelombang dan arus bergantung pada bentuk dan karakteristik pantai. Hidrodinamika merupakan sebuah konsep sistem model numerik secara umum untuk memodelkan suatu simulasi baik simulasi muka air, aliran di estuari, teluk dan pantai. 
 * Sedangkan Hidrodinamika 1D merupakan
 # Modul Hidrodinamika 2 Dimensi
 - Pengertian dan Persamaan Pembangun
