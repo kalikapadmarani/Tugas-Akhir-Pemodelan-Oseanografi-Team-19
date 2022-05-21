@@ -22,6 +22,8 @@ Repository ini dibuat untuk memenuhi persyaratan Tugas Akhir Praktikum Pemodelan
 - Persamaan Adveksi-Difusi terutama 2 Dimensi adalah persamaan matematis yang didesain untuk mempelajari fenomena transpor polutan.
 # Modul Hidrodinamika 1 Dimensi
 - Pengertian dan Persamaan Pembangun
+* Hidrodinamika merupakan
+* Sedangkan Hidrodinamika 1D merupakan
 # Modul Hidrodinamika 2 Dimensi
 - Pengertian dan Persamaan Pembangun
-
+* Hidrodinamika 2D merupakan
