@@ -71,7 +71,6 @@ Arti fisis : “Adanya pergerakan air atau arus yang diakibatkan oleh perubahan 
 Persamaan Kontinuitas 1 Dimensi Sederhana dapat ditulis
 <img width="134" alt="Screen Shot 2022-05-21 at 17 21 09" src="https://user-images.githubusercontent.com/105969814/169647262-f39f6d47-7dde-41fb-8809-f387773ae7c2.png">
 Arti fisis :”Perubahan elevasi terhadap waktu diakibatkan adanya perubahan kecepatan terhadap waktu”
-<img width="719" alt="image" src="https://user-images.githubusercontent.com/105969814/169647294-4d15109d-b352-4e74-952f-05daa50ed0a6.png">
 
 # Langkah pengerjaan Script Hidrodinamika 1D
 1. Pilih satu aplikasi untuk menjalankan script ini seperti Jupyter Notebook, Visual Studio Code atau Google Colaboratory. Kemudian meng-import mandatory library berupa matplotlib.pyplot (plt) dan numpy (np). Dilengkapi juga dengan pendefinisian model yang akan dijalankan.
