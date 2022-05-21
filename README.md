@@ -74,9 +74,7 @@ Arti fisis :”Perubahan elevasi terhadap waktu diakibatkan adanya perubahan kec
 <img width="719" alt="image" src="https://user-images.githubusercontent.com/105969814/169647294-4d15109d-b352-4e74-952f-05daa50ed0a6.png">
 
 # Langkah pengerjaan Script Hidrodinamika 1D
-1. Pilih satu aplikasi untuk menjalankan script ini seperti Jupyter Notebook, Visual Studio Code atau Google Colaboratory. 
-
-
+1. Pilih satu aplikasi untuk menjalankan script ini seperti Jupyter Notebook, Visual Studio Code atau Google Colaboratory. Kemudian meng-import mandatory library berupa matplotlib.pyplot (plt) dan numpy (np). Dilengkapi juga dengan pendefinisian model yang akan dijalankan.
 # Modul Hidrodinamika 2 Dimensi
 - Pengertian dan Persamaan Pembangun
 * Hidrodinamika 2D merupakan
