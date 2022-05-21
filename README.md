@@ -6,7 +6,7 @@ Repository ini dibuat untuk memenuhi persyaratan Tugas Akhir Praktikum Pemodelan
 - Irene Indah Yuni Simanungkalit 26050120140115 B
 - Athanasius Dhento Wilasma
 - Deno Ferdian 26050120130086 A	
-- Shumanty Nathio Simanjuntak
+- Shumanty Nathio Simanjuntak 26050120130080 A
 - Kalika Padmarani 26050120140043 B
 # Cara Penggunaan Script Python
 1. Pengguna dapat membuka folder yang berisi kumpulan script python yang dapat dijalankan pada Jupyter Notebook, Visual Studio Code dan Google Colaboratory dalam repository ini. 
