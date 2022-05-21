@@ -12,3 +12,11 @@ Repository ini dibuat untuk memenuhi persyaratan Tugas Akhir Praktikum Pemodelan
 1. Pengguna dapat membuka folder yang berisi kumpulan script python yang dapat dijalankan pada repository ini. 
 2. Setelah dibuka, tampilan script akan muncul seperti di bawah ini.
 3. Script python dapat di-copy dan nantinya di-running atau dijalankan pada Jupyter Notebook, Visual Studio Code dan Google Colaboratory.
+# MATERI
+# Modul Adveksi-Difusi 2 Dimensi
+- Pengertian dan Persamaan Pembangun
+Adveksi secara 2 Dimensi merupakan sebuah proses 
+# Modul Hidrodinamika 1 Dimensi
+- Pengertian dan Persamaan Pembangun
+# Modul Hidrodinamika 2 Dimensi
+- Pengertian dan Persamaan Pembangun
