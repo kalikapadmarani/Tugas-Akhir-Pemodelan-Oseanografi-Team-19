@@ -77,6 +77,13 @@ Arti fisis :”Perubahan elevasi terhadap waktu diakibatkan adanya perubahan kec
 # Langkah pengerjaan Script Hidrodinamika 1D
 1. Pilih satu aplikasi untuk menjalankan script ini seperti Jupyter Notebook, Visual Studio Code atau Google Colaboratory. Kemudian meng-import mandatory library berupa matplotlib.pyplot (plt) dan numpy (np). Dilengkapi juga dengan pendefinisian model yang akan dijalankan.
 # Modul Hidrodinamika 2 Dimensi
-- Pengertian dan Persamaan Pembangun
-  Hidrodinamika adalah cabang dari mekanika fluida, khususnya zat cair inkrompresibel yang dipengaruhi oleh gaya internal dan eksternal. Gaya-gaya penting dalam hidrodinamika laut adalah gaya gravitasi, gaya gesekan, dan gaya coriolis. 
+- Hidrodinamika adalah cabang dari mekanika fluida, khususnya zat cair inkrompresibel yang dipengaruhi oleh gaya internal dan eksternal. Gaya-gaya penting dalam hidrodinamika laut adalah gaya gravitasi, gaya gesekan, dan gaya coriolis. 
 * Studi hidrodinamika 2D salah satunya adalah untuk meninjau gaya pembangkit arus yang disebabkan oleh angin.
+# Langkah pengerjaan Script Hidrodinamika 2D
+1. Buka software Jupyter Notebook melalui Anaconda Prompt (Miniconda 3). Untuk mengerjakan modul ini, pastikan sudah mengunduh mandatory library Matplotlib dan Siphon.
+2. Ketik script pada Jupyter Notebook. Pada bagian Station Id, ubah script sesuai dengan yang diinginkan. Ubah Nama_NIM_Kelas sesuai dengan milik pribadi.
+3. Klik Run kemudian akan muncul hasil pemrograman. Simpan hasil grafik yang didapatkan.
+4. Buka website NDBC-NOAA.
+5. Cari Station ID sesuai yang yang telah digunakan pada pemrograman tadi. Kemudian identifikasi lokasi buoy yang digunakan.  
+
+
