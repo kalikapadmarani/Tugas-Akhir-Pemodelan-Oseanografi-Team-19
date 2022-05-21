@@ -31,21 +31,30 @@ Repository ini dibuat untuk memenuhi persyaratan Tugas Akhir Praktikum Pemodelan
 - Penerapan Adveksi-Difusi 2 Dimensi dalam bidang oseanografi, antara lain: memprediksi penyebaran polutan di perairan, memprediksi penyebaran nutrien di perairan.
 # Langkah pengerjaan Script Adveksi-Difusi 2D
 1. Pilih satu aplikasi untuk menjalankan script ini seperti Jupyter Notebook, Visual Studio Code atau Google Colaboratory. Kemudian meng-import mandatory library berupa matplotlib.pyplot, numpy dan sys. Dilengkapi juga dengan pendefinisian model yang akan dijalankan.
-  
+  <img width="223" alt="image" src="https://user-images.githubusercontent.com/105967772/169658150-53160ec0-08f5-440d-a46e-5fdabaa70e1b.png">
+
     
 2. Selanjutnya dimasukkan parameter awal dan parameter lanjutan untuk perhitungan polutan yang akan digunakan.
+  <img width="160" alt="image" src="https://user-images.githubusercontent.com/105967772/169657797-b43f9b2b-b001-4000-a76b-8f95a2a20674.png">
+
 
 
 3. Setelah itu dilakukan perhitungan dibuat dengan rumusan U dan V untuk mengetahui sebaran dari polutan.
+  <img width="375" alt="image" src="https://user-images.githubusercontent.com/105967772/169657815-9b0f07d2-d4f5-4346-aea6-c8b3f45c19b4.png">
+  <img width="306" alt="image" src="https://user-images.githubusercontent.com/105967772/169658203-dc72b21b-2b54-4ae4-9634-5040384e982a.png">
+
 
 
 4. Dilanjutkan dengan pembuatan grid agar dalam pembuatan model sebagai boundary atau batas alat bantu untuk menyusun dan mengatur hasil akhir sebaran polutan.
+  <img width="279" alt="image" src="https://user-images.githubusercontent.com/105967772/169657843-dba77d24-62f5-4c90-a590-30a7c6995d09.png">
 
 
 5. Dilakukan iterasi otomatis sampai memenuhi syarat batas kestabilan.
+  <img width="613" alt="image" src="https://user-images.githubusercontent.com/105967772/169657897-d3639d30-357f-483e-bc7b-a5ea80066346.png">
 
 
 6. Langkah terakhir yaitu membuat script untuk labelling pada grafik output sebaran polutan.
+  <img width="434" alt="image" src="https://user-images.githubusercontent.com/105967772/169657924-35d7869c-9b0e-43ef-bf13-8ba894cd8b5d.png">
 
 
 7. Script siap dijalankan
