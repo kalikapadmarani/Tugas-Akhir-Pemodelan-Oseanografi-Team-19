@@ -93,9 +93,16 @@ Arti fisis :”Perubahan elevasi terhadap waktu diakibatkan adanya perubahan kec
 * Studi hidrodinamika 2D salah satunya adalah untuk meninjau gaya pembangkit arus yang disebabkan oleh angin.
 # Langkah pengerjaan Script Hidrodinamika 2D
 1. Buka software Jupyter Notebook melalui Anaconda Prompt (Miniconda 3). Untuk mengerjakan modul ini, pastikan sudah mengunduh mandatory library Matplotlib dan Siphon.
-2. Ketik script pada Jupyter Notebook. Pada bagian Station Id, ubah script sesuai dengan yang diinginkan. Ubah Nama_NIM_Kelas sesuai dengan milik pribadi.
-3. Klik Run kemudian akan muncul hasil pemrograman. Simpan hasil grafik yang didapatkan.
-4. Buka website NDBC-NOAA.
-5. Cari Station ID sesuai yang yang telah digunakan pada pemrograman tadi. Kemudian identifikasi lokasi buoy yang digunakan.  
+  <img width="212" alt="image" src="https://user-images.githubusercontent.com/105967772/169658835-6f1e9862-7acb-4753-b100-9f6013ead8b8.png">
+
+3. Ketik script pada Jupyter Notebook. Pada bagian Station Id, ubah script sesuai dengan yang diinginkan. Ubah Nama_NIM_Kelas sesuai dengan milik pribadi.
+  <img width="397" alt="image" src="https://user-images.githubusercontent.com/105967772/169659194-1d77b7a4-c6d3-4108-a08c-40be1f5a6824.png">
+
+5. Klik Run kemudian akan muncul hasil pemrograman. Simpan hasil grafik yang didapatkan.
+6. Buka website NDBC-NOAA.
+  <img width="911" alt="image" src="https://user-images.githubusercontent.com/105967772/169659082-51d8ba10-97b4-47e1-9e46-7c7c6f2f4add.png">
+
+8. Cari Station ID sesuai yang yang telah digunakan pada pemrograman tadi. Kemudian identifikasi lokasi buoy yang digunakan.  
+ 
 
 
