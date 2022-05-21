@@ -11,13 +11,16 @@ Repository ini dibuat untuk memenuhi persyaratan Tugas Akhir Praktikum Pemodelan
 # Cara Penggunaan Script Python
 1. Pengguna dapat membuka folder yang berisi kumpulan script python yang dapat dijalankan pada repository ini. 
 2. Setelah dibuka, tampilan script akan muncul seperti di bawah ini.
-![Screenshot (1078)](https://user-images.githubusercontent.com/105922449/169639374-16d222be-0f08-4f5e-b625-6a2f494b8b57.png)
 
-4. Script python dapat di-copy dan nantinya di-running atau dijalankan pada Jupyter Notebook, Visual Studio Code dan Google Colaboratory.
+
+3. Script python dapat di-copy dan nantinya di-running atau dijalankan pada Jupyter Notebook, Visual Studio Code dan Google Colaboratory.
 # MATERI
+# Modul Hidrodinamika 2 Dimensi
 - Pengertian dan Persamaan Pembangun
 * Adveksi secara 2 Dimensi merupakan sebuah proses 
+* Difusi secara 2 Dimensi merupakan
 # Modul Hidrodinamika 1 Dimensi
 - Pengertian dan Persamaan Pembangun
 # Modul Hidrodinamika 2 Dimensi
 - Pengertian dan Persamaan Pembangun
+
