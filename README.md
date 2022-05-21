@@ -51,7 +51,7 @@ Repository ini dibuat untuk memenuhi persyaratan Tugas Akhir Praktikum Pemodelan
 - Pengertian dan Persamaan Pembangun
 Pada persamaan hidrodinamika 1 dimensi sederhana persamaan pembangun yang digunakan adalah persamaan kontunuitas dan persamaan momentum atau gerak. Persamaan kontinuitas atau kekelalan massa dimana setiap benda yang masuk dama dengan yang keluar
 Momentum merupakan hasil perkalian antara massa dan kecepatan suatu objek. Persamaan momentum didasarkan pada persamaan Hk. II Newton yang berbunyi “setiap benda bermassa yang dikenai gaya akan menimulkan percepatan”. Persamaan Momentum 1 Dimensi Sederhana dapat ditulis:
-<img width="70" alt="Screen Shot 2022-05-21 at 17 16 51" src="https://user-images.githubusercontent.com/105969814/169647100-4aa53879-6ae3-4e2a-8917-c1533c07c52f.png">
+<img width="125" alt="Screen Shot 2022-05-21 at 17 20 14" src="https://user-images.githubusercontent.com/105969814/169647226-f9265f93-733e-45fd-b973-5e4b68b608ae.png">
 
 * Hidrodinamika merupakan salah satu cabang ilmu pengetahuan yang mempelajari gerak liquid atau gerak fluida cair khususnya gerak air, kondisi hidrodinamika merupakan salah satu aspek yang sangat berpengaruh terhadap proses - proses yang terjadi di pantai terutama gelombang dan arus bergantung pada bentuk dan karakteristik pantai. Hidrodinamika merupakan sebuah konsep sistem model numerik secara umum untuk memodelkan suatu simulasi baik simulasi muka air, aliran di estuari, teluk dan pantai. 
 * Sedangkan Hidrodinamika 1D merupakan model untuk mensimulasikan pola gerak dari air laut secara global dengan satu variabel (x saja atau y saja)
@@ -63,10 +63,15 @@ Pemodelan Hidrodinamika 1 Dimensi :
 
 Persamaan utama:
 - Persamaan Momentum
-
+Persamaan Momentum 1 Dimensi Sederhana dapat ditulis
+<img width="117" alt="Screen Shot 2022-05-21 at 17 21 29" src="https://user-images.githubusercontent.com/105969814/169647277-aa024355-beb3-40a4-9ed4-be647fe03a78.png">
+Arti fisis : “Adanya pergerakan air atau arus yang diakibatkan oleh perubahan elevasi terhadap tuang atau adanya gradient elevasi”.
 
 - Persamaan Kontinuitas 
-
+Persamaan Kontinuitas 1 Dimensi Sederhana dapat ditulis
+<img width="134" alt="Screen Shot 2022-05-21 at 17 21 09" src="https://user-images.githubusercontent.com/105969814/169647262-f39f6d47-7dde-41fb-8809-f387773ae7c2.png">
+Arti fisis :”Perubahan elevasi terhadap waktu diakibatkan adanya perubahan kecepatan terhadap waktu”
+<img width="719" alt="image" src="https://user-images.githubusercontent.com/105969814/169647294-4d15109d-b352-4e74-952f-05daa50ed0a6.png">
 
 # Modul Hidrodinamika 2 Dimensi
 - Pengertian dan Persamaan Pembangun
