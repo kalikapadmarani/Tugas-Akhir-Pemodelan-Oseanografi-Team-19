@@ -56,6 +56,14 @@ Pemodelan Hidrodinamika 1 Dimensi :
 - Model Hidrodinamika 1D lebih cocok diterapkan pada gradien (kemiringan lereng) rendah atau cenderung landai
 - Memiliki model elevasi muka air yang seragam di seluruh penampang dan tidak dipengaruhi oleh kedalaman
 - Daerah yang direpserentasikan diambil tegak lurus terhadap aliran dan mewakili 1 sumbu (x atau y)
+
+Persamaan utama:
+- Persamaan Momentum
+
+
+- Persamaan Kontinuitas 
+
+
 # Modul Hidrodinamika 2 Dimensi
 - Pengertian dan Persamaan Pembangun
 * Hidrodinamika 2D merupakan
