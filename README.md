@@ -51,6 +51,8 @@ Repository ini dibuat untuk memenuhi persyaratan Tugas Akhir Praktikum Pemodelan
 - Pengertian dan Persamaan Pembangun
 * Persamaan difusi adalah persamaan diferensial parsial yang menggambarkan dinamika kepadatan bahan menjalani difusi.   
 <img width="81" alt="Screen Shot 2022-05-21 at 17 13 18" src="https://user-images.githubusercontent.com/105969814/169646926-88f53d8c-9298-4fdd-8a9a-2094c38331b8.png">
+Persamaan tersebut memiliki arti fisis perubahan konsentrasi terhadap waktu dan ruang akibat gradient konsentrasi, dimana penyebaran akibat perbedaan konsentrasi dari konsentrasi tinggi menuju konsentrasi rendah dengan F menggambarkan konsentrasi suatu zat, 𝐴_𝐷 adalah koefisien difusi, dan x adalah arah sumbu korizontal 
+
 * Hidrodinamika merupakan salah satu cabang ilmu pengetahuan yang mempelajari gerak liquid atau gerak fluida cair khususnya gerak air, kondisi hidrodinamika merupakan salah satu aspek yang sangat berpengaruh terhadap proses - proses yang terjadi di pantai terutama gelombang dan arus bergantung pada bentuk dan karakteristik pantai. Hidrodinamika merupakan sebuah konsep sistem model numerik secara umum untuk memodelkan suatu simulasi baik simulasi muka air, aliran di estuari, teluk dan pantai. 
 * Sedangkan Hidrodinamika 1D merupakan model untuk mensimulasikan pola gerak dari air laut secara global dengan satu variabel (x saja atau y saja)
 
