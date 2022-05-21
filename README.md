@@ -5,7 +5,7 @@ Repository ini dibuat untuk memenuhi persyaratan Tugas Akhir Praktikum Pemodelan
 - Juan Javier 26050120140095 B
 - Irene Indah Yuni Simanungkalit 26050120140115 B
 - Athanasius Dhento Wilasma
-- Deno Ferdian	
+- Deno Ferdian 26050120130086 A	
 - Shumanty Nathio Simanjuntak
 - Kalika Padmarani 26050120140043 B
 # Cara Penggunaan Script Python
