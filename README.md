@@ -75,15 +75,14 @@ Pemodelan Hidrodinamika 1 Dimensi :
 - Daerah yang direpserentasikan diambil tegak lurus terhadap aliran dan mewakili 1 sumbu (x atau y)
 
 Persamaan Utama:
-- Persamaan Momentum
-Persamaan Momentum 1 Dimensi Sederhana dapat ditulis:
+- Persamaan Momentum:
 <img width="117" alt="Screen Shot 2022-05-21 at 17 21 29" src="https://user-images.githubusercontent.com/105969814/169647277-aa024355-beb3-40a4-9ed4-be647fe03a78.png">
 Arti fisis : “Adanya pergerakan air atau arus yang diakibatkan oleh perubahan elevasi terhadap tuang atau adanya gradient elevasi”
 
-- Persamaan Kontinuitas 
-Persamaan Kontinuitas 1 Dimensi Sederhana dapat ditulis:
+- Persamaan Kontinuitas:
 <img width="134" alt="Screen Shot 2022-05-21 at 17 21 09" src="https://user-images.githubusercontent.com/105969814/169647262-f39f6d47-7dde-41fb-8809-f387773ae7c2.png">
 Arti fisis :"Perubahan elevasi terhadap waktu diakibatkan adanya perubahan kecepatan terhadap waktu"
+
 
 - Persamaan Transport:
 
@@ -97,6 +96,18 @@ Diskritisasi
 - FTCS
 
 ![Screenshot (484)](https://user-images.githubusercontent.com/105966336/169685332-eeb8f522-fdf6-40cb-be4a-d655275dd27d.png)
+
+
+Kelemahan Model  Hidrodinamika:
+* Banyak Data
+* Rawan Error terhadap Perhitungan Kritis (Perhitungan nilai CFL)
+* Simulasi Lama (tergantung perangkat/processor)
+
+
+Penerapan Dalam Bidang Oseanografi
+- Mengetahui sebaran tumpahan minyak mentah yang ada di perairan menggunakan data arah pergerakan arus pasang surut
+- Untuk mengkaji fenomena suhu dingin di perairan
+- Mengetahui sebaran limbah air panas yang masuk ke perairan
 
 
 
