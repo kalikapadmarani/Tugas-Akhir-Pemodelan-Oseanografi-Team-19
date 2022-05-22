@@ -85,6 +85,12 @@ Persamaan Kontinuitas 1 Dimensi Sederhana dapat ditulis
 <img width="134" alt="Screen Shot 2022-05-21 at 17 21 09" src="https://user-images.githubusercontent.com/105969814/169647262-f39f6d47-7dde-41fb-8809-f387773ae7c2.png">
 Arti fisis :”Perubahan elevasi terhadap waktu diakibatkan adanya perubahan kecepatan terhadap waktu”
 
+Persamaan Transport
+![image](https://user-images.githubusercontent.com/105966336/169684740-f58bf60d-a39d-4eaa-89cc-e3d59c1ef332.png)
+
+
+
+
 # Langkah pengerjaan Script Hidrodinamika 1D
 1. Pilih satu aplikasi untuk menjalankan script ini seperti Jupyter Notebook, Visual Studio Code atau Google Colaboratory. Kemudian meng-import mandatory library berupa matplotlib.pyplot (plt) dan numpy (np). Dilengkapi juga dengan pendefinisian model yang akan dijalankan.
 # Modul Hidrodinamika 2 Dimensi
