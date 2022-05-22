@@ -86,7 +86,8 @@ Persamaan Kontinuitas 1 Dimensi Sederhana dapat ditulis
 Arti fisis :”Perubahan elevasi terhadap waktu diakibatkan adanya perubahan kecepatan terhadap waktu”
 
 Persamaan Transport
-![image](https://user-images.githubusercontent.com/105966336/169684740-f58bf60d-a39d-4eaa-89cc-e3d59c1ef332.png)
+![image](https://user-images.githubusercontent.com/105966336/169684857-1bf89f9c-4602-4030-ae4a-5525a53df352.png)
+
 
 
 
