@@ -15,6 +15,17 @@ Repository ini dibuat untuk memenuhi persyaratan Tugas Akhir Praktikum Pemodelan
 
 3. Script python dapat di-copy dan nantinya di-running atau dijalankan pada Jupyter Notebook, Visual Studio Code dan Google Colaboratory.
 # MATERI
+# Modul Adveksi-Difusi 1 Dimensi
+- Pengertian dan Persamaan Pembangun
+* Adveksi merupakan mekanisme perpindahan massa suatu materi dari suatu titik ke titik lainnya. Adveksi juga merupakan aliran yang berkaitan dengan fluida. Contoh dari Adveksi ini salah satunya yaitu Persamaan Gelombang Linear Orde Satu dan termasuk dalam persamaan diferensial hiperbolik yang menggambarkan mekanisme transportasi suatu gas atau zat cair dengan arah tertentu.
+* Terdapat dua tipe persamaan yaitu persamaan eksplisit dan persamaan implisit. Pada persamaan eksplisit terdapat stabilitas hitungan dan hitungannya lebih mudah tetapi membutuhkan proses yang lama. Sedangkan pada implisit tidak ada stabilitas hitungan, hitungannya lebih rumit tetapi prosesnya cepat.
+* Persamaan utama Adveksi
+
+![image](https://user-images.githubusercontent.com/105967974/169691957-183a720d-5752-461d-ba71-9069dda2d826.png)
+
+* Metode penurunan persamaan Adveksi ada 3 jenis yaitu metode Forward Time Centered Space (FTCS), metode Leapfrog, dan metode Upstream.
+* 
+
 # Modul Adveksi-Difusi 2 Dimensi
 - Pengertian dan Persamaan Pembangun
 * Adveksi secara 2 Dimensi merupakan sebuah proses atau mekanisme pergerakan penyebaran atau perluasan materi/property/kuantitas/sifat fisik yang disebabkan oleh aliran fluida akibat dipengaruhi gaya-gaya tertentu dalam arah horizontal.
@@ -111,117 +122,16 @@ Penerapan Dalam Bidang Oseanografi
 
 
 
+
+
+
+
+
+
+
+
 # Langkah pengerjaan Script Hidrodinamika 1D
 1. Pilih satu aplikasi untuk menjalankan script ini seperti Jupyter Notebook, Visual Studio Code atau Google Colaboratory. Kemudian meng-import mandatory library berupa matplotlib.pyplot (plt) dan numpy (np). Dilengkapi juga dengan pendefinisian model yang akan dijalankan.
-```
-import matplotlib.pyplot as plt
-import numpy as np
-```
-2. Memasukkan paremeter awal untuk model hidrodinamika.
-```
-p = 5000 #Panjang Awal
-T = 1200 #Waktu Simulasi
-A = 0.5 #Amplitudo
-D = 15 #Depth/kedalaman
-dt = 2
-dx = 100
-To = 300 #Periode
-
-g = 9.8
-pi = np.pi
-C = np.sqrt(g*D) #Kecepatan Arus
-s = 2*pi/To #Kecepatan Sudut Gelombang
-L = C*To #Panjang Gelombang
-k = 2*pi/L #Koefisien Panjang Gelombang
-Mmax = int(p//dx)
-Nmax = int(T//dt)
-```
-
-3. Selanjutnya dibuat script phyton untuk pendefenisian persamaan hidrodinamika pada grid.
-```
-zo = [None for _ in range(Mmax)]
-uo = [None for _ in range (Mmax)]
-
-hasilu = [None for _ in range(Nmax)]
-hasilz = [None for _ in range (Nmax)]
-
-for i in range(1, Mmax+1):
-    zo[i-1] = A*np.cos(k*(i)*dx)
-    uo[i-1] = A*C*np.cos(k*((i)*dx+(0.5)*dx))/(D+zo[i-1])
-for i in range(1, Nmax+1):
-    zb = [None for _ in range(Mmax)]
-    ub = [None for _ in range(Mmax)]
-    zb[0] = A*np.cos(s*(i)*dt)
-    ub[-1] = A*C*np.cos(k*L-s*(i)*dt)/(D+zo[-1])
-    for j in range(1, Mmax):
-        ub[j-1] = uo[j-1]-g*(dt/dx)*(zo[j]-zo[j-1])
-    for k in range(2, Mmax+1):
-        zb[k-1] = zo[k-1]-(D+zo[k-1])*(dt/dx)*(ub[k-1]-ub[k-2])
-        hasilu[i-1] = ub
-        hasilz[i-1] = zb
-    for p in range(0, Mmax):
-        uo[p] = ub[p]
-        zo[p] = zb[p]
-```
-
-4. Kemudian dibuat grafik yang memuat pendefenisian-pendefenisian dari persamaan hidrodinamika yang sudah dibuat sebelumnya.
-```
-def rand_col_hex_string():
-    return f'#{format(np.random.randint(0,16777215), "#08x")[2:]}'
-
-hasilu_np = np.array(hasilu)
-hasilz_np = np.array(hasilz)
-
-fig0, ax0 = plt.subplots(figsize=(12,8))
-for i in range(1, 16):
-    col0 = rand_col_hex_string()
-    line, = ax0.plot(hasilu_np[:,i-1], c=col0, label=f'n={i}')
-    ax0.legend()
-
-    ax0.set(xlabel='Waktu', ylabel='Kecepatan Arus',
-            title=''' Nama_NIM
-            Perubahan Kecepatan Arus Dalam Grid Tertentu di Sepanjang Waktu''')
-    ax0.grid()
-
-fig1, ax1 = plt.subplots(figsize=(12,8))
-for i in range(1, 16):
-    col1 = rand_col_hex_string()
-    line, = ax1.plot(hasilz_np[:,i-1], c=col1, label=f'n={i}')
-    ax1.legend()
-
-    ax1.set(xlabel='Waktu', ylabel='Elevasi Muka Air',
-            title=''' Nama_NIM
-            Perubahan Elevasi Permukaan Air Dalam Grid Tertentu di Sepanjang Waktu''')
-    ax1.grid()
-
-fig2, ax2 = plt.subplots(figsize=(12,8))
-for i in range(1, 16):
-    col2 = rand_col_hex_string()
-    line, = ax2.plot(hasilu_np[i-1], c=col2, label=f'n={i}')
-    ax2.legend()
-
-    ax2.set(xlabel='Grid', ylabel='Kecepatan Arus',
-            title=''' Nama_NIM
-            Perubahan Kecepatan Arus Dalam Waktu Tertentu di Sepanjang Grid''')
-    ax2.grid()
-
-fig3, ax3 = plt.subplots(figsize=(12,8))
-for i in range(1, 16):
-    col3 = rand_col_hex_string()
-    line, = ax3.plot(hasilz_np[i-1], c=col3, label=f'n={i}')
-    ax3.legend()
-
-    ax3.set(xlabel='Grid', ylabel='Elevasi Muka Air',
-            title=''' Nama_NIM
-            Perubahan Elevasi Permukaan Air Dalam Waktu Tertentu di Sepanjang Grid''')
-    ax3.grid()
-```
-
-5. Grafik Perubahan Kecepatan Arus Dalam Grid Tertentu di Sepanjang Waktu, Perubahan Elevasi Permukaan Air Dalam Grid Tertentu di Sepanjang Waktu, Perubahan Kecepatan Arus Dalam Waktu Tertentu di Sepanjang Grid dan Perubahan Elevasi Permukaan Air  Dalam Waktu Tertentu di Sepanjang Grid ditampilkan dengan perintah:
-```
-plt.show()
-```
-
 # Modul Hidrodinamika 2 Dimensi
 - Hidrodinamika adalah cabang dari mekanika fluida, khususnya zat cair inkrompresibel yang dipengaruhi oleh gaya internal dan eksternal. Gaya-gaya penting dalam hidrodinamika laut adalah gaya gravitasi, gaya gesekan, dan gaya coriolis.
 - Dalam pemrograman Hidrodinamika 2 Dimensi, dibutuhkan 2 library, yaitu matplotlib, dan siphon. Matplotlib berfungsi untuk membuat plot grafik dari hasil running. Siphon berfungsi untuk mengunduh data dari layanan data jarak jauh.   
