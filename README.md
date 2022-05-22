@@ -74,7 +74,7 @@ Pemodelan Hidrodinamika 1 Dimensi :
 - Memiliki model elevasi muka air yang seragam di seluruh penampang dan tidak dipengaruhi oleh kedalaman
 - Daerah yang direpserentasikan diambil tegak lurus terhadap aliran dan mewakili 1 sumbu (x atau y)
 
-* Persamaan utama:
+Persamaan Utama:
 - Persamaan Momentum
 Persamaan Momentum 1 Dimensi Sederhana dapat ditulis
 <img width="117" alt="Screen Shot 2022-05-21 at 17 21 29" src="https://user-images.githubusercontent.com/105969814/169647277-aa024355-beb3-40a4-9ed4-be647fe03a78.png">
@@ -86,18 +86,21 @@ Persamaan Kontinuitas 1 Dimensi Sederhana dapat ditulis
 Arti fisis :"Perubahan elevasi terhadap waktu diakibatkan adanya perubahan kecepatan terhadap waktu"
 
 
-* Persamaan Transport
-![image](https://user-images.githubusercontent.com/105966336/169685133-e0d44581-4fb8-4775-b563-95679637ca41.png)
+Persamaan Transport
+
+![Screenshot (483)](https://user-images.githubusercontent.com/105966336/169685294-255d7d59-a48c-4acc-a470-2848710d3b3c.png)
+
 
 * Diskritisasi
 - CTCS
-![image](https://user-images.githubusercontent.com/105966336/169685160-aa6bef4e-d70b-4b32-8b32-dc62ffc0f1fb.png)
+![Screenshot (485)](https://user-images.githubusercontent.com/105966336/169685325-8859d04d-0e99-4424-bbc3-d35654b2cb75.png)
 
 - FTCS
-![image](https://user-images.githubusercontent.com/105966336/169685170-4977d341-a365-49ac-aac2-1be43327e6e5.png)
+![Screenshot (484)](https://user-images.githubusercontent.com/105966336/169685332-eeb8f522-fdf6-40cb-be4a-d655275dd27d.png)
 
 
-[image](https://user-images.githubusercontent.com/105966336/169684967-70bb4da6-8812-4afe-95e4-d8e9c29d016d.png)
+
+
 
 
 
