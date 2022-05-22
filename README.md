@@ -78,21 +78,25 @@ Persamaan utama:
 - Persamaan Momentum
 Persamaan Momentum 1 Dimensi Sederhana dapat ditulis
 <img width="117" alt="Screen Shot 2022-05-21 at 17 21 29" src="https://user-images.githubusercontent.com/105969814/169647277-aa024355-beb3-40a4-9ed4-be647fe03a78.png">
-Arti fisis : “Adanya pergerakan air atau arus yang diakibatkan oleh perubahan elevasi terhadap tuang atau adanya gradient elevasi”.
+Arti fisis : “Adanya pergerakan air atau arus yang diakibatkan oleh perubahan elevasi terhadap tuang atau adanya gradient elevasi”
 
 - Persamaan Kontinuitas 
 Persamaan Kontinuitas 1 Dimensi Sederhana dapat ditulis
 <img width="134" alt="Screen Shot 2022-05-21 at 17 21 09" src="https://user-images.githubusercontent.com/105969814/169647262-f39f6d47-7dde-41fb-8809-f387773ae7c2.png">
-Arti fisis :”Perubahan elevasi terhadap waktu diakibatkan adanya perubahan kecepatan terhadap waktu”
+Arti fisis :"Perubahan elevasi terhadap waktu diakibatkan adanya perubahan kecepatan terhadap waktu"
 
 Persamaan Transport
-<[image](https://user-images.githubusercontent.com/105966336/169684857-1bf89f9c-4602-4030-ae4a-5525a53df352.png)
+
+[image](https://user-images.githubusercontent.com/105966336/169684857-1bf89f9c-4602-4030-ae4a-5525a53df352.png)
 
 Diskritisasi
 - CTCS
-<[image](https://user-images.githubusercontent.com/105966336/169684947-38741eba-6aa5-420d-982f-c29163748a5c.png)
+
+[image](https://user-images.githubusercontent.com/105966336/169684947-38741eba-6aa5-420d-982f-c29163748a5c.png)
+
 - FTCS
-<[image](https://user-images.githubusercontent.com/105966336/169684967-70bb4da6-8812-4afe-95e4-d8e9c29d016d.png)
+
+[image](https://user-images.githubusercontent.com/105966336/169684967-70bb4da6-8812-4afe-95e4-d8e9c29d016d.png)
 
 
 
