@@ -86,6 +86,7 @@ Persamaan Kontinuitas 1 Dimensi Sederhana dapat ditulis
 Arti fisis :"Perubahan elevasi terhadap waktu diakibatkan adanya perubahan kecepatan terhadap waktu"
 
 
+
 Persamaan Transport
 
 ![Screenshot (483)](https://user-images.githubusercontent.com/105966336/169685294-255d7d59-a48c-4acc-a470-2848710d3b3c.png)
@@ -93,9 +94,11 @@ Persamaan Transport
 
 * Diskritisasi
 - CTCS
+
 ![Screenshot (485)](https://user-images.githubusercontent.com/105966336/169685325-8859d04d-0e99-4424-bbc3-d35654b2cb75.png)
 
 - FTCS
+
 ![Screenshot (484)](https://user-images.githubusercontent.com/105966336/169685332-eeb8f522-fdf6-40cb-be4a-d655275dd27d.png)
 
 
