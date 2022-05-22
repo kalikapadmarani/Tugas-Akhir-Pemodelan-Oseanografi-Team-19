@@ -111,16 +111,34 @@ Penerapan Dalam Bidang Oseanografi
 
 
 
-
-
-
-
-
-
-
-
 # Langkah pengerjaan Script Hidrodinamika 1D
 1. Pilih satu aplikasi untuk menjalankan script ini seperti Jupyter Notebook, Visual Studio Code atau Google Colaboratory. Kemudian meng-import mandatory library berupa matplotlib.pyplot (plt) dan numpy (np). Dilengkapi juga dengan pendefinisian model yang akan dijalankan.
+```
+import matplotlib.pyplot as plt
+import numpy as np
+```
+2. Memasukkan paremeter awal
+```
+p = 5000 #Panjang Awal
+T = 1200 #Waktu Simulasi
+A = 0.5 #Amplitudo
+D = 15 #Depth/kedalaman
+dt = 2
+dx = 100
+To = 300 #Periode
+
+g = 9.8
+pi = np.pi
+C = np.sqrt(g*D) #Kecepatan Arus
+s = 2*pi/To #Kecepatan Sudut Gelombang
+L = C*To #Panjang Gelombang
+k = 2*pi/L #Koefisien Panjang Gelombang
+Mmax = int(p//dx)
+Nmax = int(T//dt)
+```
+
+3. 
+
 # Modul Hidrodinamika 2 Dimensi
 - Hidrodinamika adalah cabang dari mekanika fluida, khususnya zat cair inkrompresibel yang dipengaruhi oleh gaya internal dan eksternal. Gaya-gaya penting dalam hidrodinamika laut adalah gaya gravitasi, gaya gesekan, dan gaya coriolis.
 - Dalam pemrograman Hidrodinamika 2 Dimensi, dibutuhkan 2 library, yaitu matplotlib, dan siphon. Matplotlib berfungsi untuk membuat plot grafik dari hasil running. Siphon berfungsi untuk mengunduh data dari layanan data jarak jauh.   
