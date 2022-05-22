@@ -21,10 +21,26 @@ Repository ini dibuat untuk memenuhi persyaratan Tugas Akhir Praktikum Pemodelan
 * Terdapat dua tipe persamaan yaitu persamaan eksplisit dan persamaan implisit. Pada persamaan eksplisit terdapat stabilitas hitungan dan hitungannya lebih mudah tetapi membutuhkan proses yang lama. Sedangkan pada implisit tidak ada stabilitas hitungan, hitungannya lebih rumit tetapi prosesnya cepat.
 * Persamaan utama Adveksi
 
-![image](https://user-images.githubusercontent.com/105967974/169691957-183a720d-5752-461d-ba71-9069dda2d826.png)
+![image](https://user-images.githubusercontent.com/105967974/169695465-60afa067-40e2-4bae-a0ab-dd325d7bc3b1.png)
 
-* Metode penurunan persamaan Adveksi ada 3 jenis yaitu metode Forward Time Centered Space (FTCS), metode Leapfrog, dan metode Upstream.
-* 
+- Metode penurunan persamaan Adveksi ada 3 jenis yaitu metode Forward Time Centered Space (FTCS), metode Leapfrog, dan metode Upstream.
+* Metode FTCS merupakan gabungan dari selisih maju terhadap waktu dan selisih pusat terhadap ruang. Solusi FTCS juga termasuk ke dalam solusi stabil bersyarat. Dengan syarat kestabilan sebagai berikut :
+
+![image](https://user-images.githubusercontent.com/105967974/169694293-3d02dac7-1bca-43fe-8910-b5e63d27408b.png)
+
+* Diskritisasi persamaan utama Adveksi menggunakan metode FTCS
+
+![image](https://user-images.githubusercontent.com/105967974/169695988-457fe146-6426-42b9-a977-26143bb100ae.png)
+
+* Metode Leapfrog adalah metode beda hingga yang merupakan perluasan dari metode beda tengah (Central Difference) terhadap ruang dan waktu. Skema Leapfrog didapatkan dari turunan Deret Taylor yang mana skema ini merupakan skema yang konsisten. Leapfrog ini akan konsisten apabila nilai dari C kurang atau sama dengan 1. Rumus untuk mencari nilai C yaitu :
+
+![image](https://user-images.githubusercontent.com/105967974/169694543-b5e7ad1e-f0c8-4f1a-8af7-f87c4f5d8eef.png)
+
+* Metode Upstream merupakan skema yang digunakan untuk melengkapi ketidaksempurnaan dari metode Leapfrog karena nilai konsentrasi dalam komputer menjadi negatif walaupun konsentrasinya positif. Untuk itu metode Upstream ini dibuat sebagai model positif dari konsentrasi di alam yang merujuk ke lautan. Metode ini menggunakan pendekatan beda maju untuk turunan waktu, sedangkan untuk turunan terhadap ruang dilakukan dengan melihat arah kecepatan u. Jika u > 0 maka turunan terhadap ruang menggunakan pendekatan beda mundur. Sebaliknya jika u < 0 maka digunakan pendekatan beda maju. Stabilitas metode Upstream adalah sebagai berikut :
+
+![image](https://user-images.githubusercontent.com/105967974/169695199-9f0ecb9b-4ff6-4458-860e-abc9ec823e85.png)
+
+
 
 # Modul Adveksi-Difusi 2 Dimensi
 - Pengertian dan Persamaan Pembangun
