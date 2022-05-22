@@ -76,23 +76,20 @@ Pemodelan Hidrodinamika 1 Dimensi :
 
 Persamaan Utama:
 - Persamaan Momentum
-Persamaan Momentum 1 Dimensi Sederhana dapat ditulis
+Persamaan Momentum 1 Dimensi Sederhana dapat ditulis:
 <img width="117" alt="Screen Shot 2022-05-21 at 17 21 29" src="https://user-images.githubusercontent.com/105969814/169647277-aa024355-beb3-40a4-9ed4-be647fe03a78.png">
 Arti fisis : “Adanya pergerakan air atau arus yang diakibatkan oleh perubahan elevasi terhadap tuang atau adanya gradient elevasi”
 
 - Persamaan Kontinuitas 
-Persamaan Kontinuitas 1 Dimensi Sederhana dapat ditulis
+Persamaan Kontinuitas 1 Dimensi Sederhana dapat ditulis:
 <img width="134" alt="Screen Shot 2022-05-21 at 17 21 09" src="https://user-images.githubusercontent.com/105969814/169647262-f39f6d47-7dde-41fb-8809-f387773ae7c2.png">
 Arti fisis :"Perubahan elevasi terhadap waktu diakibatkan adanya perubahan kecepatan terhadap waktu"
 
+- Persamaan Transport:
 
+<img width="200" alt="Screen Shot 2022-05-21 at 17 21 29" src="https://user-images.githubusercontent.com/105966336/169685294-255d7d59-a48c-4acc-a470-2848710d3b3c.png">
 
-Persamaan Transport
-
-![Screenshot (483)](https://user-images.githubusercontent.com/105966336/169685294-255d7d59-a48c-4acc-a470-2848710d3b3c.png)
-
-
-* Diskritisasi
+Diskritisasi
 - CTCS
 
 ![Screenshot (485)](https://user-images.githubusercontent.com/105966336/169685325-8859d04d-0e99-4424-bbc3-d35654b2cb75.png)
