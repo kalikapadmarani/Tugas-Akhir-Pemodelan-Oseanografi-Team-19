@@ -88,6 +88,14 @@ Arti fisis :”Perubahan elevasi terhadap waktu diakibatkan adanya perubahan kec
 Persamaan Transport
 ![image](https://user-images.githubusercontent.com/105966336/169684857-1bf89f9c-4602-4030-ae4a-5525a53df352.png)
 
+Diskritisasi
+- CTCS
+![image](https://user-images.githubusercontent.com/105966336/169684947-38741eba-6aa5-420d-982f-c29163748a5c.png)
+- FTCS
+![image](https://user-images.githubusercontent.com/105966336/169684967-70bb4da6-8812-4afe-95e4-d8e9c29d016d.png)
+
+
+
 
 
 
