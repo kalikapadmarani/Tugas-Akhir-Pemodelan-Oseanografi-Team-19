@@ -57,6 +57,7 @@ Repository ini dibuat untuk memenuhi persyaratan Tugas Akhir Praktikum Pemodelan
 
 ![image](https://user-images.githubusercontent.com/105967974/169846509-376d1db3-9073-4945-b12a-ab69c62a37de.png)
 
+* Metode penyelesaian persamaan difusi dapat dilakukan menggunakan dua metode yaitu metode eksplisit dan metode implisit. Pada metode eksplisit penyelesaian model difusi dilakukan dengan metode FTCS. Pada metode implisit yang dipakai yaitu metode implisit Crank Nicholson yaitu metode beda hingga untuk menyelesaikan persamaan panas dan persamaan diferensial parsial sejenis.
 
 # **Modul 2: Adveksi-Difusi 2 Dimensi**
 - Pengertian dan Persamaan Pembangun
