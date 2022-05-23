@@ -14,6 +14,9 @@ Repository ini dibuat untuk memenuhi persyaratan Tugas Akhir Praktikum Pemodelan
 
 
 3. Script python dapat di-copy dan nantinya di-running atau dijalankan pada Jupyter Notebook, Visual Studio Code dan Google Colaboratory.
+
+
+
 # MATERI
 # **Modul 1: Adveksi-Difusi 1 Dimensi**
 - Pengertian dan Persamaan Pembangun
@@ -55,7 +58,7 @@ Repository ini dibuat untuk memenuhi persyaratan Tugas Akhir Praktikum Pemodelan
 - Dalam pemrograman Adveksi-Difusi 2 Dimensi, dibutuhkan 3 library, yaitu matplotlib, numpy, dan sys. Matplotlib berfungsi untuk membuat plot grafik dari hasil running. Numpy berfungsi untuk menyimpan data sebagai grid atau matriks. Sys berfungsi untuk mengakses konfigurasi interpreter pada saat runtime dan berinteraksi dengan environment sistem operasi.
 - Dari hasil pemodelan yang dikerjakan, dapat terlihat bahwa awalnya polutan awalnya hanya berada di 1 titik dan konsentrasinya sangat pekat. Seiring berjalannya waktu, polutan menyebar dan bergerak ke arah theta diikuti dengan menurunnya konsentrasi polutan tersebut.
 - Persamaan Adveksi-Difusi terutama 2 Dimensi adalah persamaan matematis yang didesain untuk mempelajari fenomena transpor polutan. Persamaan ini menggambarkan model pemodelan oseanografi yang menggambarkan proses transportasi suatu zat yang dipengaruhi gaya dalam dua dimensi.
-- Penerapan Adveksi-Difusi 2 Dimensi dalam bidang oseanografi, antara lain: memprediksi penyebaran polutan di perairan, memprediksi penyebaran nutrien di perairan.
+- Penerapan Adveksi-Difusi 2 Dimensi dalam bidang oseanografi, antara lain: memprediksi penyebaran polutan di perairan dan memprediksi penyebaran nutrien di perairan.
 # Langkah pengerjaan Script Adveksi-Difusi 2D
 1. Pilih satu aplikasi untuk menjalankan script ini seperti Jupyter Notebook, Visual Studio Code atau Google Colaboratory. Kemudian meng-import mandatory library berupa matplotlib.pyplot, numpy dan sys. Dilengkapi juga dengan pendefinisian model yang akan dijalankan.
   <img width="223" alt="image" src="https://user-images.githubusercontent.com/105967772/169658150-53160ec0-08f5-440d-a46e-5fdabaa70e1b.png">
