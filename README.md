@@ -110,6 +110,33 @@ Arti fisis : “Adanya pergerakan air atau arus yang diakibatkan oleh perubahan 
 <img width="134" alt="Screen Shot 2022-05-21 at 17 21 09" src="https://user-images.githubusercontent.com/105969814/169647262-f39f6d47-7dde-41fb-8809-f387773ae7c2.png">
 Arti fisis :"Perubahan elevasi terhadap waktu diakibatkan adanya perubahan kecepatan terhadap waktu"
 
+Pada modul ini praktikan membahas persamaan Hidrodinamika 1D. Hidrodinamika adalah cabang dari mekanika fluida, khususnya zat cair incompressible yang dipengaruhi oleh gaya inernal dan eksternal. Dalam hidrodinamika laut, gaya - gaya terpenting ada gaya gravitasi, gesek dan coriolis. Model Hidrodinamika yang dibahas pada modul ini adalah model yang dibangun dari adanya proses - proses yang mempengaruhi pergerakkan massa air (pasang surut, arus dan gelombang). Model hidrodinamika ini dibangun berdasarkan Hukum Konservasi Massa dan Hukum Momentum.
+
+`import matplotlib.pyplot as plt`
+
+`import numpy as np`
+
+**Penginputan nilai parameter**
+```
+Proses Awal
+p = 5000         
+T = 1200         
+A = 0.5         
+D = 15           
+dt = 2
+dx = 100
+To = 300         
+
+Parameter Lanjutan
+g = 9.8   
+pi = np.pi 
+C = np.sqrt(g*D) 
+s = 2*pi/To      
+L = C*To         
+k = 2*pi/L       
+Mmax = int(p//dx)
+Nmax = int(T//dt)`
+```
 
 - Persamaan Transport:
 
