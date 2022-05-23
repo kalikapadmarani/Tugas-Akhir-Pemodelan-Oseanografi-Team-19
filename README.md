@@ -53,6 +53,11 @@ Repository ini dibuat untuk memenuhi persyaratan Tugas Akhir Praktikum Pemodelan
 
 ![image](https://user-images.githubusercontent.com/105967974/169843223-05636661-6e83-4a2b-8be1-8ee9dd67a6b0.png)
 
+* Kriteria kestabilan :
+
+![image](https://user-images.githubusercontent.com/105967974/169846509-376d1db3-9073-4945-b12a-ab69c62a37de.png)
+
+
 # **Modul 2: Adveksi-Difusi 2 Dimensi**
 - Pengertian dan Persamaan Pembangun
 * Adveksi secara 2 Dimensi merupakan sebuah proses atau mekanisme pergerakan penyebaran atau perluasan materi/property/kuantitas/sifat fisik yang disebabkan oleh aliran fluida akibat dipengaruhi gaya-gaya tertentu dalam arah horizontal.
