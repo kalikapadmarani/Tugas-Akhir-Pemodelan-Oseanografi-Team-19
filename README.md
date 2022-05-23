@@ -189,7 +189,7 @@ for i in range (1, 16):
   line, = ax0.plot(hasilu_np[:,i-1], c=col0, label=f'n={i}')
   ax0.legend()
 
-  ax0.set(xlabel='Waktu', ylabel='Kecepatan Arus', title='''Shafina Amalia Yahya_26050120140169
+  ax0.set(xlabel='Waktu', ylabel='Kecepatan Arus', title='''Nama_Nim
   Perubahan Kecepatan Arus Dalam Grid Tertentu di sepanjang Waktu''')
   ax0.grid()
 
@@ -200,7 +200,7 @@ for i in range(1, 16):
   ax1.legend()
 
   ax1.set(xlabel='Waktu', ylabel='Elevasi Muka Air', 
-          title='''Shafina Amalia Yahya_26050120140169
+          title='''Nama_Nim
           Perubahan Elevasi Permukaan Air Dalam Grid Tertentu di sepanjang Waktu''')
   ax1.grid()
 
@@ -211,7 +211,7 @@ for i in range(1, 16):
   ax2.legend()
 
   ax2.set(xlabel='Grid', ylabel='Kecepatan Arus', 
-          title='''Shafina Amalia Yahya_26050120140169
+          title='''Nama_Nim
           Perubahan Kecepatan Arus Dalam Waktu Tertentu di Sepanjang Grid''')
   ax2.grid()
 
@@ -222,7 +222,7 @@ for i in range(1, 16):
   ax3.legend()
 
   ax3.set(xlabel='Grid', ylabel='Elevasi Muka Air', 
-          title='''Shafina Amalia Yahya_26050120140169
+          title='''Nama_Nim
           Perubahan Elevasi Muka Air Dalam Waktu Tertentu di Sepanjang Grid''')
   ax3.grid()
   ```
@@ -250,16 +250,6 @@ Penerapan Dalam Bidang Oseanografi
 - Mengetahui sebaran tumpahan minyak mentah yang ada di perairan menggunakan data arah pergerakan arus pasang surut
 - Untuk mengkaji fenomena suhu dingin di perairan
 - Mengetahui sebaran limbah air panas yang masuk ke perairan
-
-
-
-
-
-
-
-
-
-
 
 # Langkah pengerjaan Script Hidrodinamika 1D
 1. Pilih satu aplikasi untuk menjalankan script ini seperti Jupyter Notebook, Visual Studio Code atau Google Colaboratory. Kemudian meng-import mandatory library berupa matplotlib.pyplot (plt) dan numpy (np). Dilengkapi juga dengan pendefinisian model yang akan dijalankan.
