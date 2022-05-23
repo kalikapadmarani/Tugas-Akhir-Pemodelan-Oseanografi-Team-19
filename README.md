@@ -110,6 +110,9 @@ Arti fisis :"Perubahan elevasi terhadap waktu diakibatkan adanya perubahan kecep
 
 Pada modul ini praktikan membahas persamaan Hidrodinamika 1D. Hidrodinamika adalah cabang dari mekanika fluida, khususnya zat cair incompressible yang dipengaruhi oleh gaya inernal dan eksternal. Dalam hidrodinamika laut, gaya - gaya terpenting ada gaya gravitasi, gesek dan coriolis. Model Hidrodinamika yang dibahas pada modul ini adalah model yang dibangun dari adanya proses - proses yang mempengaruhi pergerakkan massa air (pasang surut, arus dan gelombang). Model hidrodinamika ini dibangun berdasarkan Hukum Konservasi Massa dan Hukum Momentum.
 
+# Langkah pengerjaan Script Hidrodinamika 1D
+1. Pilih satu aplikasi untuk menjalankan script ini seperti Jupyter Notebook, Visual Studio Code atau Google Colaboratory. Kemudian meng-import mandatory library berupa matplotlib.pyplot (plt) dan numpy (np). Dilengkapi juga dengan pendefinisian model yang akan dijalankan.
+
 `import matplotlib.pyplot as plt`
 
 `import numpy as np`
@@ -261,8 +264,6 @@ Penerapan Dalam Bidang Oseanografi
 - Untuk mengkaji fenomena suhu dingin di perairan
 - Mengetahui sebaran limbah air panas yang masuk ke perairan
 
-# Langkah pengerjaan Script Hidrodinamika 1D
-1. Pilih satu aplikasi untuk menjalankan script ini seperti Jupyter Notebook, Visual Studio Code atau Google Colaboratory. Kemudian meng-import mandatory library berupa matplotlib.pyplot (plt) dan numpy (np). Dilengkapi juga dengan pendefinisian model yang akan dijalankan.
 
 
 # **Modul 4: Hidrodinamika 2 Dimensi**
