@@ -282,7 +282,7 @@ Penerapan Dalam Bidang Oseanografi
 
 8. Cari Station ID sesuai yang yang telah digunakan pada pemrograman tadi. Kemudian identifikasi lokasi buoy yang digunakan.  
 
-## *PENUTUP*
+## **PENUTUP**
 
 ## **UCAPAN TERIMA KASIH**
 Demikianlah _repository_ tugas akhir Praktikum Pemodelan Oseanografi 2022. Para _author_ memohon maaf jika ada kesalahan dalam penulisan maupun penjelasan materi pada _repository_ ini. Kami juga ingin berterima kasih kepada :
