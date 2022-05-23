@@ -282,5 +282,12 @@ Penerapan Dalam Bidang Oseanografi
 
 8. Cari Station ID sesuai yang yang telah digunakan pada pemrograman tadi. Kemudian identifikasi lokasi buoy yang digunakan.  
  
-
+## **UCAPAN TERIMA KASIH 🙇‍♂️ 🙇‍♀️**
+Demikianlah _repository_ tugas akhir Praktikum Pemodelan Oseanografi 2022. Para _author_ memohon maaf jika ada kesalahan dalam penulisan maupun penjelasan materi pada _repository_ ini. Kami juga ingin berterima kasih kepada :
+1. Dr. Aris Ismanto, S.Si., M.Si. selaku dosen pengampu matakuliah Pemodelan Oseanografi.
+2. Prof. Dr. Denny Nugroho Sugianto, S.T., M.Si. selaku dosen pengampu matakuliah Pemodelan Oseanografi.
+3. Dr. Elis Indrayanti, S.T., M.Si. selaku dosen pengampu matakuliah Pemodelan Oseanografi.
+4. Rikha Widhiaratih, S.Si., M.Si selaku dosen pengampu matakuliah Pemodelan Oseanografi.
+5. Kakak - kakak asisten Praktikum Pemodelan Oseanografi 2022 yang sudah mendampingi selama keberjalanan praktikum.
+6. Teman - teman Oseanografi 2020 yang membantu atas tersusunnya _repository_ ini.
 
