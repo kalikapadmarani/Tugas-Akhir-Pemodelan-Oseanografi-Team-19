@@ -292,4 +292,3 @@ Demikianlah _repository_ tugas akhir Praktikum Pemodelan Oseanografi 2022. Para 
 4. Rikha Widhiaratih, S.Si., M.Si selaku dosen pengampu matakuliah Pemodelan Oseanografi.
 5. Kakak - kakak asisten Praktikum Pemodelan Oseanografi 2022 yang sudah mendampingi selama keberjalanan praktikum.
 6. Teman - teman Oseanografi 2020 yang membantu atas tersusunnya _repository_ ini.
-
