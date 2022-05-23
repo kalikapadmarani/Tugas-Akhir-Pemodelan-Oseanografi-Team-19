@@ -39,6 +39,10 @@ Repository ini dibuat untuk memenuhi persyaratan Tugas Akhir Praktikum Pemodelan
 
 ![image](https://user-images.githubusercontent.com/105967974/169694543-b5e7ad1e-f0c8-4f1a-8af7-f87c4f5d8eef.png)
 
+* Diskritisasi persamaan utama Adveksi menggunakan metode Leapfrog
+
+![image](https://user-images.githubusercontent.com/105967974/169835234-53ff14af-2430-43d9-86ea-309a8b5456e9.png)
+
 * Metode Upstream merupakan skema yang digunakan untuk melengkapi ketidaksempurnaan dari metode Leapfrog karena nilai konsentrasi dalam komputer menjadi negatif walaupun konsentrasinya positif. Untuk itu metode Upstream ini dibuat sebagai model positif dari konsentrasi di alam yang merujuk ke lautan. Metode ini menggunakan pendekatan beda maju untuk turunan waktu, sedangkan untuk turunan terhadap ruang dilakukan dengan melihat arah kecepatan u. Jika u > 0 maka turunan terhadap ruang menggunakan pendekatan beda mundur. Sebaliknya jika u < 0 maka digunakan pendekatan beda maju. Stabilitas metode Upstream adalah sebagai berikut :
 
 ![image](https://user-images.githubusercontent.com/105967974/169695199-9f0ecb9b-4ff6-4458-860e-abc9ec823e85.png)
