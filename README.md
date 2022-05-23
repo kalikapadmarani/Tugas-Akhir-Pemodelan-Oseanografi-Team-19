@@ -49,6 +49,9 @@ Repository ini dibuat untuk memenuhi persyaratan Tugas Akhir Praktikum Pemodelan
 
 * Difusi merupakan proses transport massa karena adannya gradien konsentrasi yang berbeda. Pergerakan terjadi dari konsentrasi tinggi menuju konsentrasi yang lebih rendah. Model ini memiliki hubungan dengan kestabilan numerik yang akan diperhitungkan yang mana overflow akan terjadi jika kestabilitasan tidak terpenuhi.
 * Perbedaan difusi dengan adveksi yaitu pada adveksi terjadi perpindahan sedangkan pada difusi terjadi perubahan konsentrasi.
+* Persamaan utama Difusi
+
+![image](https://user-images.githubusercontent.com/105967974/169843223-05636661-6e83-4a2b-8be1-8ee9dd67a6b0.png)
 
 # **Modul 2: Adveksi-Difusi 2 Dimensi**
 - Pengertian dan Persamaan Pembangun
