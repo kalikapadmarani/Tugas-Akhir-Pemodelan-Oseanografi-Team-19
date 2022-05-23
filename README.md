@@ -15,7 +15,7 @@ Repository ini dibuat untuk memenuhi persyaratan Tugas Akhir Praktikum Pemodelan
 
 3. Script python dapat di-copy dan nantinya di-running atau dijalankan pada Jupyter Notebook, Visual Studio Code dan Google Colaboratory.
 # MATERI
-# Modul Adveksi-Difusi 1 Dimensi
+# **Modul 1: Adveksi-Difusi 1 Dimensi**
 - Pengertian dan Persamaan Pembangun
 * Adveksi merupakan mekanisme perpindahan massa suatu materi dari suatu titik ke titik lainnya. Adveksi juga merupakan aliran yang berkaitan dengan fluida. Contoh dari Adveksi ini salah satunya yaitu Persamaan Gelombang Linear Orde Satu dan termasuk dalam persamaan diferensial hiperbolik yang menggambarkan mekanisme transportasi suatu gas atau zat cair dengan arah tertentu.
 * Terdapat dua tipe persamaan yaitu persamaan eksplisit dan persamaan implisit. Pada persamaan eksplisit terdapat stabilitas hitungan dan hitungannya lebih mudah tetapi membutuhkan proses yang lama. Sedangkan pada implisit tidak ada stabilitas hitungan, hitungannya lebih rumit tetapi prosesnya cepat.
@@ -42,7 +42,7 @@ Repository ini dibuat untuk memenuhi persyaratan Tugas Akhir Praktikum Pemodelan
 
 
 
-# Modul Adveksi-Difusi 2 Dimensi
+# **Modul 2: Adveksi-Difusi 2 Dimensi**
 - Pengertian dan Persamaan Pembangun
 * Adveksi secara 2 Dimensi merupakan sebuah proses atau mekanisme pergerakan penyebaran atau perluasan materi/property/kuantitas/sifat fisik yang disebabkan oleh aliran fluida akibat dipengaruhi gaya-gaya tertentu dalam arah horizontal.
 
@@ -65,11 +65,9 @@ Repository ini dibuat untuk memenuhi persyaratan Tugas Akhir Praktikum Pemodelan
   <img width="160" alt="image" src="https://user-images.githubusercontent.com/105967772/169657797-b43f9b2b-b001-4000-a76b-8f95a2a20674.png">
 
 
-
 3. Setelah itu dilakukan perhitungan dibuat dengan rumusan U dan V untuk mengetahui sebaran dari polutan.
   <img width="375" alt="image" src="https://user-images.githubusercontent.com/105967772/169657815-9b0f07d2-d4f5-4346-aea6-c8b3f45c19b4.png">
   <img width="306" alt="image" src="https://user-images.githubusercontent.com/105967772/169658203-dc72b21b-2b54-4ae4-9634-5040384e982a.png">
-
 
 
 4. Dilanjutkan dengan pembuatan grid agar dalam pembuatan model sebagai boundary atau batas alat bantu untuk menyusun dan mengatur hasil akhir sebaran polutan.
@@ -86,7 +84,7 @@ Repository ini dibuat untuk memenuhi persyaratan Tugas Akhir Praktikum Pemodelan
 
 7. Script siap dijalankan
 
-# Modul Hidrodinamika 1 Dimensi
+# **Modul 3: Hidrodinamika 1 Dimensi**
 - Pengertian dan Persamaan Pembangun
 Pada persamaan hidrodinamika 1 dimensi sederhana persamaan pembangun yang digunakan adalah persamaan kontunuitas dan persamaan momentum atau gerak. Persamaan kontinuitas atau kekelalan massa dimana setiap benda yang masuk dama dengan yang keluar
 Momentum merupakan hasil perkalian antara massa dan kecepatan suatu objek. Persamaan momentum didasarkan pada persamaan Hk. II Newton yang berbunyi “setiap benda bermassa yang dikenai gaya akan menimulkan percepatan”. Persamaan Momentum 1 Dimensi Sederhana dapat ditulis:
@@ -265,7 +263,9 @@ Penerapan Dalam Bidang Oseanografi
 
 # Langkah pengerjaan Script Hidrodinamika 1D
 1. Pilih satu aplikasi untuk menjalankan script ini seperti Jupyter Notebook, Visual Studio Code atau Google Colaboratory. Kemudian meng-import mandatory library berupa matplotlib.pyplot (plt) dan numpy (np). Dilengkapi juga dengan pendefinisian model yang akan dijalankan.
-# Modul Hidrodinamika 2 Dimensi
+
+
+# **Modul 4: Hidrodinamika 2 Dimensi**
 - Hidrodinamika adalah cabang dari mekanika fluida, khususnya zat cair inkrompresibel yang dipengaruhi oleh gaya internal dan eksternal. Gaya-gaya penting dalam hidrodinamika laut adalah gaya gravitasi, gaya gesekan, dan gaya coriolis.
 - Dalam pemrograman Hidrodinamika 2 Dimensi, dibutuhkan 2 library, yaitu matplotlib, dan siphon. Matplotlib berfungsi untuk membuat plot grafik dari hasil running. Siphon berfungsi untuk mengunduh data dari layanan data jarak jauh.   
 * Studi hidrodinamika 2D salah satunya adalah untuk meninjau gaya pembangkit arus yang disebabkan oleh angin.
