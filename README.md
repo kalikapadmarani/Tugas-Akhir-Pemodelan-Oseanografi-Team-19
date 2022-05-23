@@ -226,6 +226,18 @@ for i in range(1, 16):
           Perubahan Elevasi Muka Air Dalam Waktu Tertentu di Sepanjang Grid''')
   ax3.grid()
   ```
+  
+**Perintah untuk menampilkan hasil grafik pemodelan Hidrodinamika 1D**
+
+`plt.show()`
+
+**Hasil Grafik Pemodelan Hidrodinamika 1D**
+
+![image](https://user-images.githubusercontent.com/105702150/169676708-1242e839-ffc9-4dd4-bee2-799a45667a36.png)
+![image](https://user-images.githubusercontent.com/105702150/169676710-c5abae7c-c7cb-468d-93bb-0c58d45afa13.png)
+![image](https://user-images.githubusercontent.com/105702150/169676713-9903b03e-f04e-4f3d-80de-8ef7801307e4.png)
+![image](https://user-images.githubusercontent.com/105702150/169676721-38a5c1fa-ac82-48b0-a171-1c0c04342958.png)
+
 - Persamaan Transport:
 
 <img width="200" alt="Screen Shot 2022-05-21 at 17 21 29" src="https://user-images.githubusercontent.com/105966336/169685294-255d7d59-a48c-4acc-a470-2848710d3b3c.png">
