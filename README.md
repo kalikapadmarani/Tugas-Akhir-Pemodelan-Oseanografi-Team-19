@@ -12,8 +12,9 @@ Repository ini dibuat untuk memenuhi persyaratan Tugas Akhir Praktikum Pemodelan
 1. Pengguna dapat membuka folder yang berisi kumpulan script python yang dapat dijalankan pada Jupyter Notebook, Visual Studio Code dan Google Colaboratory dalam repository ini. 
 2. Setelah dibuka, tampilan script akan muncul seperti di bawah ini.
 
+![gambar](https://user-images.githubusercontent.com/105922449/170020917-d9416aeb-2c7b-4900-a70f-2c15817f6d88.png)
 
-3. Script python dapat di-copy dan nantinya di-running atau dijalankan pada Jupyter Notebook, Visual Studio Code dan Google Colaboratory.
+3. Script python dapat di-copy dan nantinya dapat di-running atau dijalankan pada Jupyter Notebook, Visual Studio Code, Google Colaboratory dan beberapa aplikasi lainnya
 
 
 
