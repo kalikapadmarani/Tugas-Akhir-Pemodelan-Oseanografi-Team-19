@@ -296,7 +296,10 @@ Penerapan Dalam Bidang Oseanografi
   <img width="397" alt="image" src="https://user-images.githubusercontent.com/105967772/169659194-1d77b7a4-c6d3-4108-a08c-40be1f5a6824.png">
 
 5. Klik Run kemudian akan muncul hasil pemrograman. Simpan hasil grafik yang didapatkan.
-6. Buka website NDBC-NOAA.
+
+![gambar](https://user-images.githubusercontent.com/105922449/170217668-6270e346-a552-4756-ba6f-3e5f0006def3.png)
+
+7. Buka website NDBC-NOAA.
   <img width="911" alt="image" src="https://user-images.githubusercontent.com/105967772/169659082-51d8ba10-97b4-47e1-9e46-7c7c6f2f4add.png">
 
 8. Cari Station ID sesuai yang yang telah digunakan pada pemrograman tadi. Kemudian identifikasi lokasi buoy yang digunakan.  
